@@ -59,6 +59,8 @@ Older templates, experiments, and reference files live under `archive/`:
 | `archive/reference/` | Contact sheet and HTML sources |
 | `archive/cache/` | Local junk/cache (not tracked in git) |
 
+The entire `archive/` folder is local-only and is not committed to git.
+
 Composite map assets are written into the same assets folder used to resolve
 token images. Completed decks and audit reports go in `output/`.
 
