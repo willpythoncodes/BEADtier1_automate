@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "run_id": "placeholder_review",
+  "assets": {
+    "hazard_overview_map": "placeholder_assets/hazard_overview_map.png",
+    "event_footprint_table": "placeholder_assets/event_footprint_table.png",
+    "headliner_gdp_table": "placeholder_assets/headliner_gdp_table.png",
+    "headliner_employee_table": "placeholder_assets/headliner_employee_table.png",
+    "critical_infrastructure_map": "placeholder_assets/critical_infrastructure_map.png",
+    "ripple_forecast_graphic": "placeholder_assets/ripple_forecast_graphic.png",
+    "socioeconomic_profile_table": "placeholder_assets/socioeconomic_profile_table.png",
+    "data_sources_table": "placeholder_assets/data_sources_table.png"
+  }
+}

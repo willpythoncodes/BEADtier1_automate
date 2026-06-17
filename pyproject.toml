@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tier1-assemble"
+version = "0.1.0"
+description = "Assemble BEAD Tier 1 PowerPoint drafts from tokenized templates and local assets."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "Pillow>=9.0",
+  "python-pptx>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+]
+
+[project.scripts]
+tier1-assemble = "tier1_assemble.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

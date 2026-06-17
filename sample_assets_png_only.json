@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "run_id": "sample_tier1",
+  "assets": {
+    "hazard_overview_map": {
+      "type": "composite",
+      "base": "new_run_map_Road Closures.png",
+      "overlay": "new_run_legend_Road Closures.png"
+    },
+    "event_footprint_table": "gdp_pct_of_us.png",
+    "headliner_gdp_table": "gdp_county_choropleth.png",
+    "headliner_employee_table": "gdp_trend.png",
+    "critical_infrastructure_map": {
+      "type": "composite",
+      "base": "metlife_stadium_game_map_US Power Grid & Active Outages 2.png",
+      "overlay": "metlife_stadium_game_legend_US Power Grid & Active Outages 1.png"
+    },
+    "ripple_forecast_graphic": "gdp_trend.png",
+    "socioeconomic_profile_table": "gdp_pct_of_us.png",
+    "data_sources_table": "gdp_county_choropleth.png"
+  }
+}
